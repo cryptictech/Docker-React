@@ -1,11 +1,16 @@
-FROM node:12
+FROM node:10
 
 WORKDIR /user/src/app
 
-COPY ./app ./
+COPY ./app/package.json ./package.json
+COPY ./app/src ./src
 
 RUN npm install
 
-EXPOSE 8080
+#COPY ./app ./
+VOLUME ./build ./build
+VOLUME ./logs /root/.npm/_logs/
 
-CMD { "npm", "start" }
+EXPOSE 3000
+
+CMD [ "npm", "start" ]
