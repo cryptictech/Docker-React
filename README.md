@@ -1,5 +1,5 @@
 # Docker-React-App
-A dockerfile to launch Facebook's React App. Let's make React development and deployment faster.
+A dockerfile to launch (Facebook's React App)[https://github.com/facebook/create-react-app]. Let's make React development and deployment faster.
 
 Not an official image, but a convenient one.
 
