@@ -5,14 +5,12 @@ Not an official image, but a convenient one.
 
 ## How to use the image
 
-### Pulling and running the image
-
-#### Using the latest image
+### Using the latest image
 To pull the image, use `docker pull cryptictech/react-app:latest`
 
 To run the image, use `docker run cryptictech/react-app:latest`
 
-#### Versioned images
+### Versioned images
 I am trying to support different versions of create-react-app in an attempt to be more suitable for production environments; to avoid confusion, my version numbers match [Facebook's create-react-app](https://github.com/facebook/create-react-app).
 
 To find which versions you can download, visit [Docker Hub](https://hub.docker.com/repository/docker/cryptictech/react-app).
