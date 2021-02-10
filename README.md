@@ -19,9 +19,5 @@ To pull and run a versioned image, use `docker pull cryptictech/react-app:VERSIO
 
 For example `docker pull cryptictech/react-app:4.0.2` and `docker run cryptictech/react-app:4.0.2`.
 
-### Using docker-compose.yml
-
-## Contribute to this image
-
 ## Licensing
 This software is the containerization of [Facebook's create-react-app](https://github.com/facebook/create-react-app), the license provided covers the root directory of this project but /app is created by `create-react-app` which is covered by their [license](https://github.com/facebook/create-react-app/blob/master/LICENSE).
